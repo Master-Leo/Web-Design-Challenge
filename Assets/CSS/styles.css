@@ -11,12 +11,23 @@
   padding: 20px;
 }
 
+.frame {
+  display: flex;
+  grid-auto-rows: max-content;
+  z-index: 100;
+  margin-top: 12px !important;
+  margin-right: auto !important;
+  margin-bottom: 12px !important;
+  margin-left: auto !important;
+}
+
 .navbar{
   background-color: white;
 }
-.col-6{
+.col-md-6{
   padding: 5px;
 }
+
 #box {
   vertical-align: top;
   padding: 20px; 
@@ -35,14 +46,26 @@
   border-radius: 5px;
   grid-auto-rows: max-content;
 }
+#compare-section{
+  vertical-align: top;
+  padding: 20px; 
+  background-color:rgb(222, 222, 222);
+  width: auto;
+  height: max-content;
+  border-radius: 5px;
+  grid-auto-rows: max-content;
+}
 
 #header{
   font-size:40px;
 }
+#headers{
+  font-size:30px;
+}
 #backscene {
   background-color: rgb(177, 191, 206);
 }
-#nav-header {
+#nav-box {
   display: block; 
   color: white; 
   margin-top: 0px;
@@ -57,4 +80,10 @@
   float:left;
   width: 50%;
   margin-right: 15px;
+}
+
+h4{
+  text-align: center;
+  margin-top: 30px;
+  color:teal;
 }
