@@ -129,7 +129,7 @@ h4{
   }
 
   #right-section{
-    grid-template-columns: 1fr 150px ;
+    display: contents;
     margin:0px;
     margin-left: 0px;
     padding: 15px; 
