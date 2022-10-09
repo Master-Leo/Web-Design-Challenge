@@ -1,7 +1,7 @@
 .main-box{
   display: grid;
-  grid-template-columns: minmax(0,1fr) 350px;
-  grid-column-gap: 12px;
+  grid-template-columns: 1fr 350px;
+  gap: 1.5rem;
   grid-auto-rows: max-content;
   z-index: 100;
   margin-top: 12px;
@@ -129,7 +129,7 @@ h4{
   }
 
   #right-section{
-    display: contents;
+    grid-template-columns: 1fr 150px ;
     margin:0px;
     margin-left: 0px;
     padding: 15px; 
