@@ -4,10 +4,10 @@
   grid-column-gap: 12px;
   grid-auto-rows: max-content;
   z-index: 100;
-  margin-top: 12px !important;
-  margin-right: auto !important;
-  margin-bottom: 12px !important;
-  margin-left: auto  !important;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-bottom: 12px;
+  margin-left: auto;
   padding: 20px;
 }
 
@@ -15,10 +15,10 @@
   display: flex;
   grid-auto-rows: max-content;
   z-index: 100;
-  margin-top: 12px !important;
-  margin-right: auto !important;
-  margin-bottom: 12px !important;
-  margin-left: auto !important;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-bottom: 12px;
+  margin-left: auto;
 }
 
 .navbar{
@@ -96,6 +96,14 @@
   margin-right: 15px;
 }
 
+#img {
+  width: max-content;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h4{
   text-align: center;
   margin-top: 30px;
@@ -105,10 +113,10 @@ h4{
 
   .main-box {
     display: inline-block;
-    margin-top: 12px !important;
-    margin-right: 0 !important;
-    margin-bottom: 12px !important;
-    margin-left: 0 !important;
+    margin-top: 12px;
+    margin-right: 0;
+    margin-bottom: 12px;
+    margin-left: 0;
   }
 
   #box{
@@ -117,16 +125,16 @@ h4{
     margin-left: 0px;
     padding: 20px; 
     background-color:rgb(222, 222, 222);
-    border-radius: 0px;
+    border-radius: 50px;
   }
 
   #right-section{
-    display:contents;
+    display: contents;
     margin:0px;
     margin-left: 0px;
     padding: 15px; 
-    background-color:rgb(222, 222, 222);
-    border-radius: 0px;
+    background-color: rgb(177, 191, 206);
+    border-radius: 50px;
   }
 
   #backscene {
@@ -136,6 +144,10 @@ h4{
 
   #header {
     font-size:30px;
+    text-align: center;
+  }
+  #headers {
+    font-size:25px;
     text-align: center;
   }
 }
